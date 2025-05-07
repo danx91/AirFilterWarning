@@ -1,16 +1,16 @@
 # Air Filter Warning
 A simple mod that adds warning message before exiting the game when air filter is still working in your hideout.
 
-Mod page is available on [SPT Hub](https://hub.sp-tarkov.com/files/file/2705-all-quests-checkmarks/).
+Mod page is available on [SPT Hub](https://hub.sp-tarkov.com/files/file/2820-air-filter-warning/).
 
 ![showcase image](images/showcase.png)
 
 ## Installation
-1. Make sure that both SPT Client is not running
+1. Make sure that SPT Client is not running
 2. Head to [releases page](https://github.com/danx91/AirFilterWarning/releases)
 3. Download correct version for your SPT
 4. Open zip file
-5. Drag and drop `BepInEx` folder to your SPT directory
+5. Drag and drop `BepInEx` directory to your SPT directory
 6. Start game and make sure that mod is working
 
 ## License
