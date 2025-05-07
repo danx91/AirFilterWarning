@@ -1,0 +1,16 @@
+{
+	"info":{
+		"name": "airfilterwarning",
+		"version": "1.0.0",
+		"spt": "3.11"
+	},
+	"dest": {
+		"client": "BepInEx/plugins/"
+	},
+	"files": {
+		"AirFilterWarning/bin/Release/AirFilterWarning.dll": "client"
+	},
+	"ignore": [
+		"**/*.md"
+	]
+}
