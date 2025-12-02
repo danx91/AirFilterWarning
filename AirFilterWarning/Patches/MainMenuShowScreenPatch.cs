@@ -23,7 +23,7 @@ namespace AirFilterWarning.Patches
             {
                 string text = "UI/leave_game_confirmation_text".Localized(null);
 
-                HideoutClass hideout = Singleton<HideoutClass>.Instantiated ? Singleton<HideoutClass>.Instance : null;
+                HideoutClass? hideout = Singleton<HideoutClass>.Instantiated ? Singleton<HideoutClass>.Instance : null;
                 if (hideout != null)
                 {
                     if (hideout.EnergyController.IsEnergyGenerationOn)
