@@ -5,8 +5,8 @@ using AirFilterWarning.Patches;
 namespace AirFilterWarning
 {
     [
-        BepInPlugin("ZGFueDkx.AirFilterWarning", "AirFilterWarning", "1.0.0"),
-        BepInDependency("com.SPT.core", "3.11"),
+        BepInPlugin("ZGFueDkx.AirFilterWarning", "AirFilterWarning", "1.1.0"),
+        BepInDependency("com.SPT.core", "4.0"),
     ]
     public class Plugin : BaseUnityPlugin
     {

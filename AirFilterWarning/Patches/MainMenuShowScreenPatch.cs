@@ -19,7 +19,7 @@ namespace AirFilterWarning.Patches
         [PatchPrefix]
         static bool Prefix(MainMenuControllerClass __instance, EMenuType screen)
         {
-            if(screen == EMenuType.Exit)
+            if (screen == EMenuType.Exit)
             {
                 string text = "UI/leave_game_confirmation_text".Localized(null);
 
@@ -38,7 +38,7 @@ namespace AirFilterWarning.Patches
                     }
                 }
 
-                ItemUiContext.Instance.ShowMessageWindow(text, new Action(__instance.method_68), new Action(MainMenuControllerClass.Class1394.class1394_0.method_2), "UI/leave_game_confirmation_caption".Localized(null), 0f, false, TMPro.TextAlignmentOptions.Center);
+                ItemUiContext.Instance.ShowMessageWindow(text, new Action(__instance.method_69), new Action(MainMenuControllerClass.Class1516.class1516_0.method_2), "UI/leave_game_confirmation_caption".Localized(null), 0f, false, TMPro.TextAlignmentOptions.Center);
                 return false;
             }
 
